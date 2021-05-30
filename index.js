@@ -14,3 +14,9 @@ else if (randomNumber1 < randomNumber2){
 else{
   document.querySelector("h1").innerText = "Draw!";
 }
+
+setTimeout(showRefresh, 1000);
+
+function showRefresh(){
+  document.querySelector("h2").innerText = "Refresh page to try again!";
+}
